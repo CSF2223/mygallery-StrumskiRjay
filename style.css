@@ -5,3 +5,47 @@ font color:#EEF2E6
 secondary color:#D6CDA4   
 tertiary color:#3D8361    
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+
+html{
+    font-size: 62.5%; 
+} 
+
+header{
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid #826F66;
+    border-right: 1px solid #826F66;
+    border-left: 1px solid #826F66;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+body{ 
+    background-color: #1C6758; 
+    color: #F7CCAC ;
+    font-family: 'Caveat', sans-serif;
+    margin: 0;
+}
+
+cite {
+    font-size: 2rem;
+} 
+
+p {
+    font-size: 1.2rem;
+}
+
+
+.imageCard {
+    display: flex; 
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: 7rem 4rem;
+} 
+
